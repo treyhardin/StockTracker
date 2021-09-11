@@ -1,0 +1,37 @@
+.StockList {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.StockList p {
+    margin: 0;
+}
+
+.StockList thead {
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.StockList tr {
+    /* width: 100%; */
+    display: table-row;
+}
+
+.StockList tbody tr {
+    border-bottom: 1px solid var(--color-dark);
+}
+
+.StockList tbody td {
+    padding: 20px 0;
+}
+
+.StockList th {
+    padding: 0 0 20px;
+}
+
+.StockList th,
+.StockList td {
+    /* width: 25%; */
+    display: table-cell;
+    text-align: left;
+}
